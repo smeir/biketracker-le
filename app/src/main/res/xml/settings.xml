@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="wheel_size"
+        android:title="Wheel size"/>
+    <Preference
+        android:key="export"
+        android:title="Export"
+        android:summary="Export your wheel revolutions data."/>
+    <Preference
+        android:key="import"
+        android:title="Import"
+        android:summary="Import your wheel revolutions data"/>
+
+</PreferenceScreen>

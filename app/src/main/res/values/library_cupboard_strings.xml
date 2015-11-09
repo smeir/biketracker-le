@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<string name="define_cupboard"></string>
+	<!-- Author section -->
+	<string name="library_cupboard_author">Hugo Visser</string>
+	<string name="library_cupboard_authorWebsite">http://code.neenbedankt.com/</string>
+	<!-- Library section -->
+	<string name="library_cupboard_libraryName">Cupboard</string>
+	<string name="library_cupboard_libraryDescription">Cupboard is a library for Android that makes persistence of objects easier.</string>
+	<string name="library_cupboard_libraryWebsite">https://bitbucket.org/qbusict/cupboard/wiki/Home</string>
+	<string name="library_cupboard_libraryVersion">2.1.1</string>
+	<!-- OpenSource section -->
+	<string name="library_cupboard_isOpenSource">true</string>
+	<string name="library_cupboard_repositoryLink">https://bitbucket.org/qbusict/cupboard</string>
+	<!-- ClassPath for autoDetect section -->
+	<string name="library_cupboard_classPath">nl.qbusict.cupboard.Cupboard</string>
+	<!-- License section -->
+	<string name="library_cupboard_licenseId">apache_2_0</string>
+	<!-- Custom variables section -->
+</resources>

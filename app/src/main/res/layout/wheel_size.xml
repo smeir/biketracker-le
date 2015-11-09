@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/wheel_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:inputType="numberDecimal" >
+        <requestFocus />
+    </EditText>
+
+    <RadioGroup
+        android:id="@+id/wheel_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="m" />
+
+        <RadioButton
+            android:id="@+id/ft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ft" />
+    </RadioGroup>
+</LinearLayout>

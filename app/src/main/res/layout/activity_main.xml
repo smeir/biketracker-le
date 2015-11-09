@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/primary"
+        >
+
+        <TextView
+            android:id="@+id/today_distance_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today 25,4 km"
+            android:layout_centerInParent="true"
+            android:textSize="40sp"
+            android:textColor="@color/icons" />
+
+        <TextView
+            android:id="@+id/total_distance_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/today_distance_text_view"
+            android:text="total 900,0 km"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textColor="@color/primary_light" />
+        <ImageButton
+            android:id="@+id/state_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_bluetooth_searching_white_24dp"
+            style="?android:actionButtonStyle"
+            />
+
+    </RelativeLayout>
+
+    <org.eazegraph.lib.charts.BarChart xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/distance_chart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="4dp"
+        app:egFixedBarWidth="true"
+        app:egBarWidth="40dp"
+        app:egLegendHeight="40dp"
+        app:egEnableScroll="true"
+        app:egShowDecimal="true"
+        app:egAnimationTime="1000" />
+</LinearLayout>
